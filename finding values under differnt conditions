@@ -1,0 +1,11 @@
+#product of cubes
+# product of integers
+m = int(input("enter the value of m:"))
+n = int(input("enter the value of n:"))
+if m > n:
+    print(-1)
+else:
+    product = 1
+    for i in range(m, n+1):
+        product = product * i
+    print("product of int:", product)
