@@ -1,0 +1,11 @@
+# product of even integers
+m = int(input("enter the value of m:"))
+n = int(input("enter the value of n:"))
+if m > n:
+    print("0")
+else:
+    even_product = 1
+    for i in range(m, n+1):
+        if i % 2 == 0:
+            even_product = even_product * i
+    print("product of int:", even_product)
